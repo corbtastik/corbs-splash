@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Corbs Splash!</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">    
+    <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/default.css">
+    <link rel="stylesheet" href="css/corbs.css">
+</head>
+<body>
+    <section class="section">
+        <nav class="breadcrumb" aria-label="breadcrumbs">
+            <ul>
+                <li><a href="#/">Howdy</a></li>
+                <li><a href="#/social">Social</a></li>
+                <li><a href="#/projects">Projects</a></li>
+                <li><a href="#/fotos">Fotos</a></li>
+                <li><a href="#/kitchen-sink">Kitchen Sink</a></li>                    
+            </ul>        
+        </nav>
+    </section>
+    <div class="reveal">
+        <div class="slides">
+            <section data-transition="slide-in fade-out" id="home">
+                <p>
+                    Howdy and Welcome!
+                </p>
+            </section>                
+            <section data-transition="slide-in fade-out" id="social">
+                    <div class="box">
+                            <article class="media">
+                              <div class="media-left">
+                                <figure class="image is-128x128">
+                                  <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                                </figure>
+                              </div>
+                              <div class="media-right">
+                                  <p>
+                                    <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
+                                    <br>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                                  </p>
+                                </div>
+                            </article>
+                          </div>
+            </section>
+            <section data-transition="slide-in fade-out" id="projects">Projects</section>
+            <section data-transition="slide-in fade-out" id="fotos">Fotos</section>
+            <section data-transition="slide-in fade-out" id="kitchen-sink">Kitchen Sink</section>
+            <section>
+                    <p class="fragment grow">grow</p>
+                    <p class="fragment shrink">shrink</p>
+                    <p class="fragment fade-out">fade-out</p>
+                    <p class="fragment fade-up">fade-up (also down, left and right!)</p>
+                    <p class="fragment fade-in-then-out">fades in, then out when we move to the next step</p>
+                    <p class="fragment fade-in-then-semi-out">fades in, then obfuscate when we move to the next step</p>
+                    <p class="fragment highlight-current-blue">blue only once</p>
+                    <p class="fragment highlight-red">highlight-red</p>
+                    <p class="fragment highlight-green">highlight-green</p>
+                    <p class="fragment highlight-blue">highlight-blue</p>
+                </section>
+        </div>
+    </div>                
+    <script src="js/reveal.js"></script>
+    <script>
+        Reveal.initialize();
+    </script>
+</body>
+</html>

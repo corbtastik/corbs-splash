@@ -1,0 +1,8 @@
+---
+applications:
+- name: corbs-splash
+  memory: 512M
+  path: _site
+  routes:
+  - route: corbs-splash.cfapps.io
+  buildpack: staticfile_buildpack
